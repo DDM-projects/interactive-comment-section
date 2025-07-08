@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Interactive comments section</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="root">
+        <div class="cover"></div>
+        <div class="current-username">
+            <p class="current-username__value"></p>
+        </div>
+        <section class="log-and-register">
+            <button class="log-and-register__login log-and-register__button">
+                Login
+            </button>
+            <button class="log-and-register__logOut log-and-register__button">
+                Log out
+            </button>
+            <button class="log-and-register__register log-and-register__button">
+                Register
+            </button>
+        </section>
+
+        <section class="log">
+            <form action="" name="loginForm" class="log__form">
+                <div class="log__input">
+                    <h1 class="log__header">Login</h1>
+                    <input type="text" id="login" name="login" placeholder="login" class="log__login" required>
+                    <input type="password" id="password" name="password" placeholder="password" class="log__password"
+                        required>
+                    <div class="log__options">
+                        <label for="remember"><input type="checkbox" id="remember" name="remember"
+                                class="log__remember">Remember
+                            me</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <button class="log__button" type="submit">Login</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="register">
+            <form action="" name="registerForm" class="register__form">
+                <div class="register__input">
+                    <h1 class="register__header">Register</h1>
+                    <input type="text" id="registerLogin" name="registerLogin" placeholder="login"
+                        class="register__login" required>
+                    <input type="password" id="registerPassword" name="registerPassword" placeholder="password"
+                        class="register__password" required>
+                    <input type="username" id="username" name="username" placeholder="username"
+                        class="register__username" required>
+                    <button class="register__button" type="submit">Register</button>
+                </div>
+            </form>
+        </section>
+        <main class="main">
+        </main>
+
+        <footer class="footer">
+            <div class="footer__photo">
+                <img src="" alt="" class="footer__photo-user">
+            </div>
+            <form name="footerForm" class="footer__form">
+                <textarea id="footerTextarea" name="footerTextarea" class="footer__textarea"
+                    placeholder="Add a comment..." maxlength="400"></textarea>
+                <button class="footer__form-button">
+                    Send
+                </button>
+            </form>
+        </footer>
+        <div className="attribution">
+            <p class="attribution__text">Challenge by</p>
+            <a href="https://www.frontendmentor.io?ref=challenge" className="attribution__link" target="_blank"
+                rel="noopener noreferrer">
+                Frontend Mentor
+            </a>
+            <p class="attribution__text">Coded by</p>
+            <a href="https://github.com/DDM-projects" className="attribution__link" target="_blank"
+                rel="noopener noreferrer">
+                DDM-projects
+            </a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="main2.js"></script>
+    <script src="main3.js"></script>
+
+</body>
+
+</html>

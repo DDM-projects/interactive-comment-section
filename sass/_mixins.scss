@@ -1,0 +1,9 @@
+@mixin formReplyComment() {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    height: 15vh;
+    padding: 15px;
+    background-color: $bgcContent;
+    border-radius: $borderRadius;
+}

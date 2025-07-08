@@ -1,0 +1,46 @@
+.footer {
+    @include formReplyComment();
+    display: none;
+    width: 50%;
+    margin-bottom: 40px;
+
+    &__photo {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+    }
+
+    &__photo-user {
+        width: 100%;
+        min-width: 30px;
+    }
+
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 100%;
+    }
+
+    &__textarea {
+        width: 80%;
+        height: 100%;
+        resize: none;
+        border-color: $borderColor;
+        font-family: $font;
+    }
+
+    &__form-button {
+        padding: 10px 20px;
+        height: fit-content;
+        border-radius: $borderRadius;
+        border: none;
+        color: white;
+        background-color: $bgcButton;
+        text-transform: uppercase;
+        font-family: $font;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}

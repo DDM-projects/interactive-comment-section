@@ -1,0 +1,90 @@
+.log-and-register {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 7%;
+    top: 60px;
+    right: 100px;
+    gap: 20px;
+
+    &__button {
+        display: none;
+        font-size: 1.6rem;
+        font-family: $font;
+        padding: 5px 10px;
+        background-color: $bgcContent;
+        border: 2px solid $nameColor;
+        border-radius: 15px;
+        color: $nameColor;
+        font-weight: 500;
+        cursor: pointer;
+        text-align: center;
+    }
+}
+
+.log,
+.register {
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: fit-content;
+    background-color: $bgcContent;
+    border-radius: 10px;
+    z-index: 3;
+
+    &__input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 15px;
+        padding: 20px 25px;
+        font-size: 1.4rem;
+    }
+
+    &__header {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    &__login,
+    &__password,
+    &__username {
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+
+    &__options {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__remember {
+        margin-right: 5px;
+    }
+
+    &__button {
+        padding: 10px;
+        background-color: $bgcContent;
+        border-radius: 20px;
+        font-size: 1.6rem;
+        border: 2px solid black;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+.current-username {
+    position: fixed;
+    top: 15px;
+    right: 7%;
+    min-width: 6%;
+    height: fit-content;
+    font-size: 1.6rem;
+}
