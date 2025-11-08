@@ -48,6 +48,20 @@ p {
   z-index: 2;
 }
 
+.attribution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.attribution__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3px;
+}
+
 .log-and-register {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -119,15 +119,15 @@ const findCurrentUser = async (event) => {
                 };
             }
         }
-
-        if (!findUser || (findUser && findUser.password != password)) {
-            alert("Incorrect login or password");
-            return;
-        }
-
-        logIn();
-        removeForm();
     }
+    
+    if (!findUser || (findUser && findUser.password != password)) {
+        alert("Incorrect login or password");
+        return;
+    }
+
+    logIn();
+    removeForm();
 };
 
 const photoCurrentUser = document.querySelector(".footer__photo-user");

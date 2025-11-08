@@ -38,7 +38,7 @@ Users should be able to:
 ### Built with
 
 -   HTML5
--   [SASS/SCSS](https://sass-lang.com/)
+-   [Sass(SCSS)](https://sass-lang.com/)
 -   Flexbox
 -   JavaScript
 -   REST API

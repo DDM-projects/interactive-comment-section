@@ -37,3 +37,13 @@ p {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
+
+.attribution {
+    display: flex;
+    gap: 10px;
+}
+
+.attribution__container {
+    display: flex;
+    gap: 3px;
+}
